@@ -1,7 +1,7 @@
 {
   "name": "sketch-dynamic-grid",
   "description": "",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "sketch": ">=49.0"
   },
@@ -18,8 +18,7 @@
     "build": "skpm-build",
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
-    "postinstall": "npm run build && skpm-link",
-    "version": "$(node -p 'require('./package.json`).version')"
+    "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
