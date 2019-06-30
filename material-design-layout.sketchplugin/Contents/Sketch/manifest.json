@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "name": "Material Design Layout",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Create Material Design Layout",
+      "identifier": "Create",
+      "script": "index.js"
+    }
+  ],
+  "menu": {
+    "title": "sketch-dynamic-grid",
+    "items": [
+      "Create"
+    ]
+  },
+  "version": "0.1.1",
+  "description": "",
+  "identifier": "material-design-layout",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/aivansz/Material-Design-Layout/master/.appcast.xml",
+  "author": "Ivan",
+  "authorEmail": "ivan.hos3@gmail.com"
+}

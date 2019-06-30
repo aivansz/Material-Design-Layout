@@ -1,14 +1,14 @@
 {
   "name": "sketch-dynamic-grid",
   "description": "",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "sketch-dynamic-grid",
+    "name": "material-design-layout",
     "manifest": "src/manifest.json",
-    "main": "sketch-dynamic-grid.sketchplugin",
+    "main": "material-design-layout.sketchplugin",
     "assets": [
       "assets/**/*"
     ],
@@ -18,10 +18,15 @@
     "build": "skpm-build",
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
-    "postinstall": "npm run build && skpm-link"
+    "postinstall": "npm run build && skpm-link",
+    "version": "$(node -p 'require('./package.json`).version')"
   },
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Ivan <ivan.silva@multivarejogpa.com.br>"
+  "author": "Ivan <ivan.hos3@gmail.com>",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/aivansz/Material-Design-Layout.git"
+  }
 }
