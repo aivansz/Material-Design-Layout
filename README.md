@@ -2,7 +2,7 @@
 
 ## Installation
 
-- [Download](https://github.com/aivansz/Material-Design-Layout/archive/v0.1.2.zip) the latest release of the plugin
+- [Download](https://github.com/aivansz/Material-Design-Layout/archive/v0.1.3.zip) the latest release of the plugin
 - Un-zip
 - Double-click on sketch-dynamic-grid.sketchplugin
 

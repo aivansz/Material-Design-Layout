@@ -10,12 +10,12 @@
     }
   ],
   "menu": {
-    "title": "sketch-dynamic-grid",
+    "title": "Material Design Layout",
     "items": [
       "Create"
     ]
   },
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "identifier": "material-design-layout",
   "disableCocoaScriptPreprocessor": true,
